@@ -3,7 +3,7 @@
     "name": "the gusher",
     "author": "(un)familiar.",
     "path": "Plugins/the gusher birthday edition.zip",
-    "formats": ["VST3", "AU", "CLAP"],
+    "formats": ["VST3", "AU"],
     "type": "fx",
     "version": "1.0.0",
     "enable_gem": false,
