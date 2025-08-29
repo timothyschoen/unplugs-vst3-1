@@ -57,7 +57,7 @@ jobs:
       - name: Build plugins
         shell: bash
         run: |
-          python3 ./build.py --compiler-launcher ccache
+          python3 ./build.py --compiler-launcher ccache --generator visualstudio
           mv Build Build-Win64
 
       - name: Archive Artifacts
@@ -91,7 +91,7 @@ jobs:
       - name: Build plugins
         shell: bash
         run: |
-          python3 ./build.py --compiler-launcher ccache
+          python3 ./build.py --compiler-launcher ccache --generator visualstudio
           mv Build Build-Win32
 
       - name: Archive Artifacts
